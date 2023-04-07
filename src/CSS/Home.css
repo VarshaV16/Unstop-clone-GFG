@@ -1,0 +1,72 @@
+.homehero {
+  padding: 5px 0;
+  position: relative;
+}
+.topsection-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+.topsection-left {
+  position: relative;
+}
+.topsection-left h1 {
+  color: blue;
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.topsection-left h1::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  background: #f2c034;
+  width: 45%;
+  height: 2px;
+}
+
+.topsection-left h1 strong {
+  font-size: 50px;
+}
+.topsection-left p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.topsection-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.topsection-right-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 550px;
+}
+.topsection-image {
+  width: 30%;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.topsection-image:hover {
+  transform: translateY(-15px);
+}
+
+.topsection-image span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.topsection-image img {
+  width: 100%;
+}
