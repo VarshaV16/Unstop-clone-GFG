@@ -3,15 +3,15 @@ import React from "react";
 import HomeHero from "../Components/HomeHero";
 import HomeFeatures from "../Components/HomeFeatures";
 import SlidingBrands from "../Components/SlidingBrands";
-import OurNumbers from "../Components/OurNumbers";
+import OurNumbers from "../Components/OurNumbers"
 import "../CSS/Home.css";
 
 function Home() {
   return (
-    <div className="features-">
+    <div className="features">
       <HomeHero />
       <HomeFeatures />
-      {/* <SlidingBrands /> */}
+      <SlidingBrands small="They trust us!" title="Our sponsors"/>
       <OurNumbers />
     </div>
   );

@@ -3,13 +3,10 @@ import React from "react";
 import images from "../images.js";
 import Card from "../Components/Card";
 import "../CSS/Home.css";
-import img1 from "../All-Images/Practice.jpg";
-
-// import img from "../All-Images/Practice.jpg";
 
 const HomeHero = () => {
   return (
-    <section className="homehero">
+    <section className="topsection">
       <div className="topsection-container">
         <div className="topsection-left">
           <h1>
@@ -18,6 +15,7 @@ const HomeHero = () => {
             <strong>Talent,Colleges,Recruiters</strong>
           </h1>
           {/* <p>Briding the gap and fostering opportunities</p> */}
+          <br/>
           <p>
             Discover Global Opportunities and Explore Worldwide Prospects:
             Learn, Showcase, Boost and Secure Your Dreams
@@ -36,12 +34,17 @@ const HomeHero = () => {
               // );
               
               return (
+                // <div className="topsection-span">
+                  
+                
                 <div className="topsection-image" key={ele.id}>
-                  <span>{ele.title}</span>
+                  
                   <a href={ele.link}>
                     <img src={ele.image} alt={ele.title} />
                   </a>
+                  <span>{ele.title}</span>
                 </div>
+                // </div>
               );
             })}
           </div>

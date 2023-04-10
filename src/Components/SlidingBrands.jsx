@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "../CSS/SlidingBrands.css";
 
-function SlidingBrands(small, title) {
+function SlidingBrands(props) {
   const brands = [
     "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/6267c59c0bd2b_Optum-logo-ora-RGB.png?d=206x60",
     "https://d8it4huxumps7.cloudfront.net/uploads/images/607e6ca5ed02c_hul.png?d=120x120",
@@ -32,8 +32,8 @@ function SlidingBrands(small, title) {
     <section className="slidingbrands">
       <div className="slidingbrands-container">
         <h2>
-          {small}
-          <span>{title}</span>
+          {props.small}
+          <span>{props.title}</span>
         </h2>
         <div className="brands-container">
           <Swiper
