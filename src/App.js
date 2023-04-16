@@ -1,30 +1,34 @@
+import React from "react";
 import "./styles.css";
 import Home from "./Pages/Home";
 import Navbar from "./Components/Navbar"
-// import { BrowserRouter as Route,Router,Routes } from "react-router-dom";
+import { BrowserRouter as Route,Router,Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
+import Compete from "./Pages/Compete";
 
 export default function App() {
   return (
     <div className="App">
-      {/* <Router> */}
+      <Router>
         <Navbar/>
-        {/* <Route  */}
-        {/* path="/"> */}
+        <Route 
+        path="/">
         <Home />
-        {/* </Route> */}
-        {/* <Route 
+        </Route>
+        <Route 
         path="/contest">
-        <Contest />
+        <Compete/>
+        
         </Route>
         <Route 
         path="/Jobs">
         <Jobs/>
-        </Route> */}
-        <Footer/>
-      {/* </Router> */}
+        </Route>
       
-      {/* <h2>Start editing to see some magic happen!</h2> */}
+
+        <Footer/>
+      </Router>
+      
     </div>
   );
 }

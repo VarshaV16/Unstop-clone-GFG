@@ -1,6 +1,6 @@
 import React from "react";
 // import { AiOutlineSearch } from "react-icons/ai";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import {AiOutlineSearch} from "react-icon"
 import "../CSS/navbar.css";
 
@@ -11,12 +11,12 @@ function Navbar(){
         <div className="nav-container">
         <div className="nav-left">
             <div className="nav-img">
-                {/* <NavLink to={"/"}> */}
-                   <img src="" alt="logo"/> 
-                {/* </NavLink> */}
+                <NavLink to={"/"}>
+                   <img src={"./All-Images/decentra-logo.png"} alt="logo"/> 
+                </NavLink>
             </div>
             <div className="nav-search">
-                {/* <AiOutlineSearch/> */}
+                <AiOutlineSearch/>
                 <input type="text" placeholder="Search"/>
 
             </div>
@@ -24,10 +24,10 @@ function Navbar(){
         <div className="nav-right">
             <div className="nav-tabs">
             <div className="compete-tab">
-                {/* <NavLink to={"/compete"}> */}
+                <NavLink to={"/compete"}>
                   <span className="tab-icon"></span>
                   <span className="tab-name">Compete</span>
-                {/* </NavLink> */}
+                </NavLink>
               </div>
             <div className="practice-tab">
                 {/* <NavLink to={"/practice"}> */}

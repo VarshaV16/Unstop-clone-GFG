@@ -42,7 +42,7 @@ footer {
   .office {
     grid-column: 3/5;
   }
-  .link {
+  .link-row {
     grid-column: 1/3;
   }
 }
@@ -57,7 +57,7 @@ footer {
     display: flex;
   }
 
-  .row {
+  .link-row {
     grid-column: 1/4;
   }
 }
@@ -73,7 +73,7 @@ footer {
   gap: 50px;
   grid-template-columns: repeat(4, 1fr);
 }
-.row {
+.link-row {
   margin-top: 50px;
 }
 .footer-header {

@@ -1,6 +1,6 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-// import {NavLink } from"
+import { NavLink } from "react-router-dom";
+
 import "../CSS/Footer.css";
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
         <div class="main">
           <div class="logo row">
             <div class="footer-header">
-              <img src=" " class="manik" alt="logo" />
+              <img src={"./All-Images/decentra-logo.png"} class="manik" alt="logo" />
             </div>
             <div class="logo-des">
               <p>
@@ -18,7 +18,7 @@ function Footer() {
               </p>
 
               {/* <a href="/" class="btn-know">Know More</a> */}
-              
+
               <a href="">mail@gmail.com</a>
 
             </div>
@@ -33,35 +33,35 @@ function Footer() {
                 here are many variations of passages of Lorem Ipsum available{" "}
               </p> */}
               <div className="box">
-            <div className="team-id">
-              <a href="https://www.linkedin.com/in/amit-mondal-78a450205/">
-                <h5>Amit Mondal</h5>
-              </a>
-            </div>
-            <div className="team-id">
-              <a href="https://www.linkedin.com/in/yash-wankhedkar-876496193/">
-                <h5>Yash Wankhedkar</h5>
-              </a>
-            </div>
-            <div className="team-id">
-              <a href="https://www.linkedin.com/in/varsha-valecha-8054bb244/">
-                <h5>Varsha Valecha</h5>
-              </a>
-            </div>
-            <div className="team-id">
-              <a href="https://www.linkedin.com/in/sudhanshu-p/">
-                <h5>Sudhanshu Pandey</h5>
-              </a>
-            </div>
-            </div>
+                <div className="team-id">
+                  <a href="https://www.linkedin.com/in/amit-mondal-78a450205/">
+                    <h5>Amit Mondal</h5>
+                  </a>
+                </div>
+                <div className="team-id">
+                  <a href="https://www.linkedin.com/in/yash-wankhedkar-876496193/">
+                    <h5>Yash Wankhedkar</h5>
+                  </a>
+                </div>
+                <div className="team-id">
+                  <a href="https://www.linkedin.com/in/varsha-valecha-8054bb244/">
+                    <h5>Varsha Valecha</h5>
+                  </a>
+                </div>
+                <div className="team-id">
+                  <a href="https://www.linkedin.com/in/sudhanshu-p/">
+                    <h5>Sudhanshu Pandey</h5>
+                  </a>
+                </div>
+              </div>
 
-              
+
 
               {/* <p class = "num">+91-9999999999</p> */}
             </div>
           </div>
 
-          <div class="link row">
+          <div class="link-row">
             <div class="footer-header">
               <h3>Links</h3>
             </div>
@@ -88,7 +88,7 @@ function Footer() {
           <div class="newsletter row">
             <div class="footer-header">
               <h3>Newsletter</h3>
-            
+
             </div>
             <div class="newsletter-des">
               <div class="subcribe">

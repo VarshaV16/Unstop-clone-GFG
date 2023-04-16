@@ -1,3 +1,5 @@
+@import url(app.css);
+
 .topsection {
   padding: 6.5rem 0;
   position: relative;
@@ -14,11 +16,11 @@
   position: relative;
 }
 .topsection-left h1 {
-  color: blue;
+  /* color: blue; */
   font-weight: 400;
   font-size: 40px;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .topsection-left h1::after {
   content: "";
@@ -32,6 +34,7 @@
 
 .topsection-left h1 strong {
   font-size: 40px;
+  font-size: 50px;
 }
 .topsection-left p {
   font-weight: 450;
@@ -48,8 +51,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 0 rem;
-  width: 550px;
+  gap: 1.2 rem;
+  width: 580px;
+
 }
 .topsection-image {
   width: 30%;
@@ -67,22 +71,36 @@
 }
 
 .topsection-image:hover {
-  transform: translateY(-15px);
+  transform: translateY(-10px);
 }
 
 .topsection-image span {
-  background-color: aliceblue;
-  position: relative;
-  /* top: 20px; */
-  /* left: 20px; */
+  position: absolute;
+  top: 20px;
+  left: 20px;
   font-weight: 600;
   font-size: 18px;
-  /* z-index: 1; */
+  z-index: 1;
   text-transform: capitalize;
-  padding: auto;
 }
 
 .topsection-image img {
+  width: 100%;
+}
+
+.topsection-image:nth-child(2) {
+  color: #562f95 !important;
+}
+
+.topsection-image:nth-child(3) {
+  color: #685200 !important;
+}
+
+.topsection-image:nth-child(4) {
+  color: #08678f !important;
+}
+
+topsection-image img {
   width: 100%;
 }
 
